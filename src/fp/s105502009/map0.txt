@@ -1,0 +1,142 @@
+<fx:define>
+        <ArrayList fx:id="Map1MonList" >
+            <fx:reference source="map1mon1"/>
+            <fx:reference source="map1mon2"/>
+            <fx:reference source="map1mon3"/>
+            <fx:reference source="map1mon4"/>
+            <fx:reference source="map1mon5"/>
+            <fx:reference source="map1mon6"/>
+            <fx:reference source="map1mon7"/>
+            <fx:reference source="map1mon8"/>
+            <fx:reference source="map1mon9"/>
+            <fx:reference source="map1mon10"/>
+            <fx:reference source="map1mon11"/>
+            <fx:reference source="map1mon12"/>
+        </ArrayList>
+      </fx:define>
+      <fx:define>
+        <ArrayList fx:id="Map1YdoorList" >
+            <fx:reference source="map1Ydoor1"/>
+            <fx:reference source="map1Ydoor2"/>
+            <fx:reference source="map1Ydoor3"/>
+            <fx:reference source="map1Ydoor4"/>
+            <fx:reference source="map1Ydoor5"/>
+        </ArrayList>
+      </fx:define>
+      
+      <fx:define>
+        <ArrayList fx:id="Map1Ykey" >
+            <fx:reference source="map1Ykey1"/>
+            <fx:reference source="map1Ykey2"/>
+            <fx:reference source="map1Ykey3"/>
+            <fx:reference source="map1Ykey4"/>
+            <fx:reference source="map1Ykey5"/>
+            <fx:reference source="map1Ykey6"/>
+            <fx:reference source="map1Ykey7"/>
+            <fx:reference source="map1Ykey8"/>
+            <fx:reference source="map1Ykey9"/>
+            <fx:reference source="map1Ykey10"/>
+            <fx:reference source="map1Ykey11"/>
+        </ArrayList>
+      </fx:define>
+      <fx:define>
+      	<ArrayList fx:id="Map1Bkey" >
+            <fx:reference source="map1Bkey1"/>
+            <fx:reference source="map1Bkey2"/>
+        </ArrayList>
+      </fx:define>
+      <fx:define>
+        <ArrayList fx:id="MonName" >
+            <fx:reference source="mon1name"/>
+            <fx:reference source="mon2name"/>
+            <fx:reference source="mon3name"/>
+            <fx:reference source="mon4name"/>
+            <fx:reference source="mon5name"/>
+            <fx:reference source="mon6name"/>
+            <fx:reference source="mon7name"/>
+            <fx:reference source="mon8name"/>
+        </ArrayList>
+      </fx:define>
+      <fx:define>
+        <ArrayList fx:id="MonHp" >
+            <fx:reference source="mon1HP"/>
+            <fx:reference source="mon2HP"/>
+            <fx:reference source="mon3HP"/>
+            <fx:reference source="mon4HP"/>
+            <fx:reference source="mon5HP"/>
+            <fx:reference source="mon6HP"/>
+            <fx:reference source="mon7HP"/>
+            <fx:reference source="mon8HP"/>
+        </ArrayList>
+      </fx:define>
+      <fx:define>
+        <ArrayList fx:id="MonAt" >
+            <fx:reference source="mon1at"/>
+            <fx:reference source="mon2at"/>
+            <fx:reference source="mon3at"/>
+            <fx:reference source="mon4at"/>
+            <fx:reference source="mon5at"/>
+            <fx:reference source="mon6at"/>
+            <fx:reference source="mon7at"/>
+            <fx:reference source="mon8at"/>
+        </ArrayList>
+      </fx:define>
+      <fx:define>
+        <ArrayList fx:id="MonDef" >
+            <fx:reference source="mon1def"/>
+            <fx:reference source="mon2def"/>
+            <fx:reference source="mon3def"/>
+            <fx:reference source="mon4def"/>
+            <fx:reference source="mon5def"/>
+            <fx:reference source="mon6def"/>
+            <fx:reference source="mon7def"/>
+            <fx:reference source="mon8def"/>
+        </ArrayList>
+      </fx:define>
+      <fx:define>
+        <ArrayList fx:id="MonMoney" >
+            <fx:reference source="mon1money"/>
+            <fx:reference source="mon2money"/>
+            <fx:reference source="mon3money"/>
+            <fx:reference source="mon4money"/>
+            <fx:reference source="mon5money"/>
+            <fx:reference source="mon6money"/>
+            <fx:reference source="mon7money"/>
+            <fx:reference source="mon8money"/>
+        </ArrayList>
+      </fx:define>
+      <fx:define>
+        <ArrayList fx:id="MonExp" >
+            <fx:reference source="mon1exp"/>
+            <fx:reference source="mon2exp"/>
+            <fx:reference source="mon3exp"/>
+            <fx:reference source="mon4exp"/>
+            <fx:reference source="mon5exp"/>
+            <fx:reference source="mon6exp"/>
+            <fx:reference source="mon7exp"/>
+            <fx:reference source="mon8exp"/>
+        </ArrayList>
+      </fx:define>
+      <fx:define>
+        <ArrayList fx:id="MonCost" >
+            <fx:reference source="mon1cost"/>
+            <fx:reference source="mon2cost"/>
+            <fx:reference source="mon3cost"/>
+            <fx:reference source="mon4cost"/>
+            <fx:reference source="mon5cost"/>
+            <fx:reference source="mon6cost"/>
+            <fx:reference source="mon7cost"/>
+            <fx:reference source="mon8cost"/>
+        </ArrayList>
+      </fx:define>
+      <fx:define>
+        <ArrayList fx:id="NumControlList" >
+            <fx:reference source="numcontrol0"/>
+            <fx:reference source="numcontrol1"/>
+            <fx:reference source="numcontrol2"/>
+            <fx:reference source="numcontrol3"/>
+            <fx:reference source="numcontrol4"/>
+            <fx:reference source="numcontrol5"/>
+            <fx:reference source="numcontrol6"/>
+        </ArrayList>
+      </fx:define>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="stage1" fitHeight="650.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../../../image/map3-2.png" />
+      </image></ImageView>
+      <Label fx:id="HP" alignment="CENTER" contentDisplay="CENTER" layoutX="148.0" layoutY="137.0" prefHeight="29.0" text="1000" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="defend" alignment="CENTER" layoutX="148.0" layoutY="208.0" prefHeight="29.0" prefWidth="67.0" text="10" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="attack" alignment="CENTER" layoutX="148.0" layoutY="173.0" prefHeight="29.0" prefWidth="67.0" text="10" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="money" alignment="CENTER" layoutX="148.0" layoutY="244.0" prefHeight="29.0" prefWidth="67.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="exp" alignment="CENTER" layoutX="148.0" layoutY="280.0" prefHeight="29.0" prefWidth="67.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="level" alignment="CENTER" layoutX="128.0" layoutY="68.0" text="1" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style" size="44.0" />
+         </font>
+      </Label>
+      <Label fx:id="ykey" alignment="CENTER" layoutX="142.0" layoutY="343.0" prefHeight="37.0" prefWidth="41.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="bkey" alignment="CENTER" layoutX="142.0" layoutY="392.0" prefHeight="37.0" prefWidth="30.0" text="1" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="rkey" alignment="CENTER" layoutX="142.0" layoutY="442.0" prefHeight="39.0" prefWidth="30.0" text="1" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="l1" alignment="CENTER" layoutX="202.0" layoutY="342.0" text="個" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="l2" alignment="CENTER" layoutX="202.0" layoutY="390.0" text="個" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="l3" alignment="CENTER" layoutX="202.0" layoutY="438.0" text="個" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="30.0" />
+         </font>
+      </Label>
+
+      <ImageView fx:id="map3mon1" fitHeight="50.0" fitWidth="50.0" layoutX="301.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Rlim.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3mon2" fitHeight="50.0" fitWidth="50.0" layoutX="302.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Glim.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3mon3" fitHeight="50.0" fitWidth="50.0" layoutX="302.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Glim.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3mon4" fitHeight="50.0" fitWidth="50.0" layoutX="350.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Rlim.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3mon5" fitHeight="50.0" fitWidth="50.0" layoutX="350.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Nsk.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3mon6" fitHeight="50.0" fitWidth="50.0" layoutX="452.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Bbat.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3mon7" fitHeight="50.0" fitWidth="50.0" layoutX="500.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Rlim.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3mon8" fitHeight="50.0" fitWidth="50.0" layoutX="500.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Bbat.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3mon9" fitHeight="50.0" fitWidth="50.0" layoutX="550.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Nsk.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3mon10" fitHeight="50.0" fitWidth="50.0" layoutX="550.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Bbat.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3mon11" fitHeight="50.0" fitWidth="50.0" layoutX="599.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Rlim.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3mon12" fitHeight="50.0" fitWidth="50.0" layoutX="650.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Bbat.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3mon13" fitHeight="50.0" fitWidth="50.0" layoutX="700.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Rlim.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3mon14" fitHeight="50.0" fitWidth="50.0" layoutX="750.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Bbat.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3mon15" fitHeight="50.0" fitWidth="50.0" layoutX="799.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Rlim.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3mon16" fitHeight="50.0" fitWidth="50.0" layoutX="798.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Bbat.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3mon17" fitHeight="50.0" fitWidth="50.0" layoutX="798.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Rlim.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3Ydoor1" fitHeight="50.0" fitWidth="50.0" layoutX="350.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Ydoor.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3Ydoor2" fitHeight="50.0" fitWidth="50.0" layoutX="550.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Ydoor.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3Ydoor3" fitHeight="50.0" fitWidth="50.0" layoutX="650.0" layoutY="401.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Ydoor.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3Ykey1" fitHeight="50.0" fitWidth="50.0" layoutX="302.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Ykey.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3Ykey2" fitHeight="50.0" fitWidth="50.0" layoutX="352.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Ykey.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3Ykey3" fitHeight="50.0" fitWidth="50.0" layoutX="402.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Ykey.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3Ykey4" fitHeight="50.0" fitWidth="50.0" layoutX="700.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Ykey.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3Ykey5" fitHeight="50.0" fitWidth="50.0" layoutX="700.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Ykey.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3Ykey6" fitHeight="50.0" fitWidth="50.0" layoutX="700.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Ykey.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3Ykey7" fitHeight="50.0" fitWidth="50.0" layoutX="700.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Ykey.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3Ykey8" fitHeight="50.0" fitWidth="50.0" layoutX="700.0" layoutY="549.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/Ykey.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3BHP" fitHeight="50.0" fitWidth="50.0" layoutX="650.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/BHP.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3RD" fitHeight="50.0" fitWidth="50.0" layoutX="599.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/RD.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3BD" fitHeight="50.0" fitWidth="50.0" layoutX="599.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/BD.png" />
+      </image></ImageView>
+      <ImageView fx:id="map3sword" fitHeight="50.0" fitWidth="50.0" layoutX="301.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+            <Image url="@../../../image/sword.png" />
+      </image></ImageView>
+      
+      <ImageView fx:id="buttonImage" fitHeight="45.0" fitWidth="50.0" layoutX="550.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+
+
+      <ImageView fx:id="readerUI" fitHeight="550.0" fitWidth="550.0" layoutX="300.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../image/readerUI.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mon1" fitHeight="45.0" fitWidth="50.0" layoutX="316.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true" visible="false">
+      <image>
+            <Image url="@../../../image/Glim.png" />
+      </image></ImageView>
+      <Label fx:id="mon1name" alignment="CENTER" contentDisplay="CENTER" layoutX="425.0" layoutY="66.0" prefHeight="29.0" prefWidth="114.0" text="綠史萊姆" textAlignment="RIGHT" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon1HP" alignment="CENTER" contentDisplay="CENTER" layoutX="439.0" layoutY="94.0" prefHeight="29.0" prefWidth="78.0" text="1000" textAlignment="RIGHT" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon1at" alignment="CENTER" layoutX="592.0" layoutY="66.0" prefHeight="29.0" prefWidth="67.0" text="10" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon1def" alignment="CENTER" layoutX="591.0" layoutY="95.0" prefHeight="29.0" prefWidth="67.0" text="10" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon1money" alignment="CENTER" layoutX="729.0" layoutY="67.0" prefHeight="29.0" prefWidth="53.0" text="0" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon1exp" alignment="CENTER" layoutX="788.0" layoutY="67.0" prefHeight="29.0" prefWidth="53.0" text="0" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon1cost" alignment="CENTER" contentDisplay="CENTER" layoutX="748.0" layoutY="95.0" prefHeight="29.0" prefWidth="67.0" text="1000" textAlignment="RIGHT" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="mon2" fitHeight="45.0" fitWidth="50.0" layoutX="316.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true" visible="false">
+      <image>
+            <Image url="@../../../image/Rlim.png" />
+      </image></ImageView>
+      <Label fx:id="mon2name" alignment="CENTER" contentDisplay="CENTER" layoutX="422.0" layoutY="132.0" prefHeight="29.0" prefWidth="114.0" text="紅史萊姆" textAlignment="RIGHT" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon2HP" alignment="CENTER" contentDisplay="CENTER" layoutX="434.0" layoutY="161.0" prefHeight="29.0" prefWidth="84.0" text="1000" textAlignment="RIGHT" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon2at" alignment="CENTER" layoutX="591.0" layoutY="132.0" prefHeight="29.0" prefWidth="67.0" text="10" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon2def" alignment="CENTER" layoutX="591.0" layoutY="161.0" prefHeight="29.0" prefWidth="67.0" text="10" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon2money" alignment="CENTER" layoutX="729.0" layoutY="132.0" prefHeight="29.0" prefWidth="53.0" text="0" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon2exp" alignment="CENTER" layoutX="788.0" layoutY="132.0" prefHeight="29.0" prefWidth="53.0" text="0" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon2cost" alignment="CENTER" contentDisplay="CENTER" layoutX="748.0" layoutY="161.0" prefHeight="29.0" prefWidth="67.0" text="1000" textAlignment="RIGHT" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="mon3" fitHeight="45.0" fitWidth="50.0" layoutX="316.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+      <image>
+            <Image url="@../../../image/Bbat.png" />
+      </image></ImageView>
+      <Label fx:id="mon3name" alignment="CENTER" contentDisplay="CENTER" layoutX="422.0" layoutY="193.0" prefHeight="29.0" prefWidth="114.0" text="小蝙蝠" textAlignment="RIGHT" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon3HP" alignment="CENTER" contentDisplay="CENTER" layoutX="434.0" layoutY="222.0" prefHeight="29.0" prefWidth="84.0" text="1000" textAlignment="RIGHT" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon3at" alignment="CENTER" layoutX="591.0" layoutY="193.0" prefHeight="29.0" prefWidth="67.0" text="10" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon3def" alignment="CENTER" layoutX="591.0" layoutY="222.0" prefHeight="29.0" prefWidth="67.0" text="10" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon3money" alignment="CENTER" layoutX="729.0" layoutY="193.0" prefHeight="29.0" prefWidth="53.0" text="0" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon3exp" alignment="CENTER" layoutX="788.0" layoutY="193.0" prefHeight="29.0" prefWidth="53.0" text="0" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon3cost" alignment="CENTER" contentDisplay="CENTER" layoutX="748.0" layoutY="222.0" prefHeight="29.0" prefWidth="67.0" text="1000" textAlignment="RIGHT" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="mon4" fitHeight="45.0" fitWidth="50.0" layoutX="316.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true" visible="false">
+      <image>
+            <Image url="@../../../image/Nsk.png" />
+      </image></ImageView>
+      <Label fx:id="mon4name" alignment="CENTER" contentDisplay="CENTER" layoutX="422.0" layoutY="258.0" prefHeight="29.0" prefWidth="114.0" text="骷髏" textAlignment="RIGHT" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon4HP" alignment="CENTER" contentDisplay="CENTER" layoutX="434.0" layoutY="287.0" prefHeight="29.0" prefWidth="84.0" text="1000" textAlignment="RIGHT" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon4at" alignment="CENTER" layoutX="591.0" layoutY="258.0" prefHeight="29.0" prefWidth="67.0" text="10" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon4def" alignment="CENTER" layoutX="591.0" layoutY="287.0" prefHeight="29.0" prefWidth="67.0" text="10" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon4money" alignment="CENTER" layoutX="729.0" layoutY="258.0" prefHeight="29.0" prefWidth="53.0" text="0" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon4exp" alignment="CENTER" layoutX="788.0" layoutY="258.0" prefHeight="29.0" prefWidth="53.0" text="0" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="mon4cost" alignment="CENTER" contentDisplay="CENTER" layoutX="748.0" layoutY="287.0" prefHeight="29.0" prefWidth="67.0" text="1000" textAlignment="RIGHT" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      
+      <ImageView fx:id="numcontrol0" fitHeight="69.0" fitWidth="528.0" layoutX="311.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <ImageView fx:id="numcontrol1" fitHeight="69.0" fitWidth="528.0" layoutX="311.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <ImageView fx:id="numcontrol2" fitHeight="69.0" fitWidth="528.0" layoutX="311.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <ImageView fx:id="numcontrol3" fitHeight="69.0" fitWidth="528.0" layoutX="311.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <ImageView fx:id="numcontrol4" fitHeight="69.0" fitWidth="528.0" layoutX="311.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true" visible="true" />
+      <ImageView fx:id="numcontrol5" fitHeight="61.0" fitWidth="528.0" layoutX="311.0" layoutY="373.0" pickOnBounds="true" preserveRatio="true" visible="true" />
+      <ImageView fx:id="numcontrol6" fitHeight="61.0" fitWidth="528.0" layoutX="311.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true" visible="true" />
+      <ImageView fx:id="numcontrol7" fitHeight="61.0" fitWidth="528.0" layoutX="311.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true" visible="true" />
+      
+      <ImageView fx:id="gameover" fitHeight="650.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../image/Gameover.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
